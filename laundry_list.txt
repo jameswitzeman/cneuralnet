@@ -1,0 +1,10 @@
+Laundry list of stuff to add/fix with code:
+
+-Make train() & test() more usable as standalone functions
+	-Allow user to pass info to train() in such a way that train()
+	 can use several different cost functions, activation functions,
+	 etc
+-Generalize functionality for more implementations (not just image recognition)
+-Support for convolutional networks
+
+

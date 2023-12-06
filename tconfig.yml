@@ -1,0 +1,39 @@
+#YAML file for configuring the traditional neural network script.
+
+#Debug options/main file options
+debug:
+  #Print out image as a string of floats
+  print_img: false
+
+  #printout the expected output vector
+  expected_out: false
+
+  #print the output after a feedforward
+  print_output: false
+
+  #Printout the gradient of the output layer after backpropagation
+  output_gradient: false
+
+  #Printout the average gradient
+  output_avg_grad: false
+
+  #Enable training. The script will only test if this is false
+  enable_training: true
+
+  #Save the settings of the network after every epoch.
+  save_network: false
+
+#Options for the structure of the network
+meta-settings:
+  epochs: 50
+  blocks: 50000
+  block_count: 1
+  test_count: 1000
+  dn: 0.025
+  lambda: 5
+
+  layers:
+    count: 3
+    L1: 784
+    L2: 30
+    L3: 10

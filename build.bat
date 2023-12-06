@@ -1,0 +1,1 @@
+gcc main.c -Wall -I"C:\Program Files (x86)\GnuWin32\include" -L"C:\Program Files (x86)\GnuWin32\lib" -lgslcblas -lgsl -lm -o test

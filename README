@@ -1,0 +1,9 @@
+This is a little C library I wrote that implements some very basic machine learning.
+
+Important to note is that when running the main example "example.out" the configuration
+is determined by tconfig.yml. There are currently these options:
+
+-f filename    --Loads in a pre-trained network setting file.
+-s filename    --Enables 'one-shot' mode, where only one image is loaded in and tested. Training and svaing disabled.
+-p             --Print mode. Makes the network occasionally print out what one of its input files looks like
+				 alongside the network's categorization. 

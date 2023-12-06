@@ -1,4 +1,7 @@
-This is a little C library I wrote that implements some very basic machine learning.
+This is a little C library I wrote that implements some very basic machine learning. The library depends on the GSL scientific library,
+so make sure to have that installed.
+
+Please note that the MNIST library in .csv format is required to run the provided examples. This can be downloaded from https://www.kaggle.com/datasets/oddrationale/mnist-in-csv/.
 
 Important to note is that when running the main example "example.out" the configuration
 is determined by tconfig.yml. There are currently these options:
